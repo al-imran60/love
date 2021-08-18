@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text-box2{
+  position: relative;
+  
+}
+h1{
+  font-size: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1%;
+  border: lawngreen solid;
+  border-radius: 10px;
+
+  animation-name: click-here;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition-duration: 2s;
+
+  
+}
+@keyframes click-here{
+  0%{
+    border-color: lawngreen;
+  }
+  20%{
+    border-color: rgb(175, 0, 0);
+  }
+  40%{
+    border-color: rgb(67, 5, 236);
+  }
+  50%{
+    background-color: lawngreen;
+  }
+  70%{
+    background-color: #74b9ff;
+  }
+}
+
+a{
+  text-decoration: none;
+  font-size: 40px;
+}
+
+img{
+  width: 400px;
+  margin-top: 70px;
+  margin-left: 600px;
+}
